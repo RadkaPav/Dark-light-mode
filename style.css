@@ -28,6 +28,33 @@ body {
     --switcher-color: rgb(156, 156, 156);
 }
 
+header, nav ul, .switcher-box, .switcher-description {
+    display: flex;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: var(--background-color);
+}
+
+nav ul {
+    width: 300px;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+nav ul li {
+list-style: none;
+}
+
+header ul a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
 /*ZKOPÍROVÁNO Z https://www.w3schools.com/howto/howto_css_switch.asp*/
 /* The switch - the box around the slider */
 .switch {
